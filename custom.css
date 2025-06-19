@@ -1,0 +1,10 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+h1, h2, h3 {
+    color: #1f77b4;
+}
+.stDataFrame {
+    border: 1px solid #ddd;
+}

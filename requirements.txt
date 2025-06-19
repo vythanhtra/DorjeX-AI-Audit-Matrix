@@ -1,0 +1,10 @@
+
+streamlit
+pandas
+openpyxl
+plotly
+streamlit-authenticator
+streamlit-i18n
+transformers
+scikit-learn
+torch

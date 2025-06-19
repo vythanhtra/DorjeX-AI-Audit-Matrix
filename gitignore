@@ -1,0 +1,61 @@
+# Python & Streamlit setup
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Streamlit secrets and cache
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/cache/
+.streamlit/*.json
+
+# Environment config
+.env
+*.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VS Code & IDE configs
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs & data outputs
+*.log
+*.csv
+*.xlsx
+*.db
+*.sqlite
+
+# Model checkpoints / transformers cache
+*.pth
+*.ckpt
+*.pt
+*.bin
+*.onnx
+
+# Hugging Face model & tokenizer cache
+~/.cache/huggingface/
+~/.huggingface/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Virtual environment folders
+venv/
+env/
+ENV/
+.venv/
+
+# Custom project folders
+data/
+output/
+checkpoints/

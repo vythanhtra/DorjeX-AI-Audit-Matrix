@@ -1,0 +1,86 @@
+
+/* Dark mode tổng thể */
+body, .stApp {
+    background-color: #121212;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Tiêu đề nổi bật */
+h1, h2, h3 {
+    color: #66ccff;
+    transition: color 0.3s ease;
+}
+
+/* Hiệu ứng fade-in */
+.stApp > * {
+    animation: fadeIn 0.8s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Bảng dữ liệu */
+.stDataFrame {
+    border: 1px solid #444;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    transition: all 0.3s ease-in-out;
+}
+
+thead tr th {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+tbody tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
+tbody tr:hover {
+    background-color: #333333;
+    box-shadow: 0 0 8px rgba(102, 204, 255, 0.4);
+}
+
+/* Nút & hover */
+button, .stButton>button {
+    background-color: #333;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #666;
+    transition: background-color 0.3s, transform 0.2s;
+}
+button:hover {
+    background-color: #444;
+    transform: scale(1.02);
+}
+
+/* Biểu tượng trực quan */
+[data-testid="stMarkdownContainer"] ul li::before {
+    content: "🤖 ";
+    margin-right: 0.4rem;
+}
+.stAlert::before {
+    content: "⚠️ ";
+    margin-right: 0.4rem;
+}
+
+/* Responsive cho mobile */
+@media screen and (max-width: 768px) {
+    .block-container {
+        padding: 1rem;
+    }
+
+    .stDataFrame {
+        font-size: 12px;
+        overflow-x: auto;
+    }
+
+    h1, h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}

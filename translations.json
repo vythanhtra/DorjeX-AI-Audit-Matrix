@@ -1,0 +1,46 @@
+{
+  "en": {
+    "AI Audit Matrix v2.0": "AI Audit Matrix v2.0",
+    "Welcome {name}": "Welcome {name}",
+    "Ethical Assessment (DorjeX Reflex)": "Ethical Assessment (DorjeX Reflex)",
+    "EIA Assessment: {assessment}": "EIA Assessment: {assessment}",
+    "KPI Assessments: {assessments}": "KPI Assessments: {assessments}",
+    "Similarity Score: {score:.2f}": "Similarity Score: {score:.2f}",
+    "Error loading data: {error}": "Error loading data: {error}",
+    "Username/password is incorrect": "Username/password is incorrect",
+    "Please enter your username and password": "Please enter your username and password"
+  },
+  "vi": {
+    "AI Audit Matrix v2.0": "Ma trận kiểm toán AI v2.0",
+    "Welcome {name}": "Chào mừng {name}",
+    "Ethical Assessment (DorjeX Reflex)": "Đánh giá đạo đức (DorjeX Reflex)",
+    "EIA Assessment: {assessment}": "Đánh giá EIA: {assessment}",
+    "KPI Assessments: {assessments}": "Đánh giá KPI: {assessments}",
+    "Similarity Score: {score:.2f}": "Điểm tương đồng: {score:.2f}",
+    "Error loading data: {error}": "Lỗi tải dữ liệu: {error}",
+    "Username/password is incorrect": "Tên người dùng/mật khẩu không đúng",
+    "Please enter your username and password": "Vui lòng nhập tên người dùng và mật khẩu"
+  },
+  "fr": {
+    "AI Audit Matrix v2.0": "Matrice d'audit AI v2.0",
+    "Welcome {name}": "Bienvenue {name}",
+    "Ethical Assessment (DorjeX Reflex)": "Évaluation éthique (DorjeX Reflex)",
+    "EIA Assessment: {assessment}": "Évaluation EIA : {assessment}",
+    "KPI Assessments: {assessments}": "Évaluations KPI : {assessments}",
+    "Similarity Score: {score:.2f}": "Score de similarité : {score:.2f}",
+    "Error loading data: {error}": "Erreur de chargement des données : {error}",
+    "Username/password is incorrect": "Nom d'utilisateur/mot de passe incorrect",
+    "Please enter your username and password": "Veuillez entrer votre nom d'utilisateur et mot de passe"
+  },
+  "es": {
+    "AI Audit Matrix v2.0": "Matriz de auditoría de IA v2.0",
+    "Welcome {name}": "Bienvenido {name}",
+    "Ethical Assessment (DorjeX Reflex)": "Evaluación ética (DorjeX Reflex)",
+    "EIA Assessment: {assessment}": "Evaluación EIA: {assessment}",
+    "KPI Assessments: {assessments}": "Evaluaciones KPI: {assessments}",
+    "Similarity Score: {score:.2f}": "Puntuación de similitud: {score:.2f}",
+    "Error loading data: {error}": "Error al cargar datos: {error}",
+    "Username/password is incorrect": "Nombre de usuario/contraseña incorrectos",
+    "Please enter your username and password": "Por favor, ingrese su nombre de usuario y contraseña"
+  }
+}
